@@ -1,0 +1,85 @@
+*{
+    margin-bottom:10px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: antiquewhite;
+}
+.newUl{
+    position: relative;
+}
+.remove{
+    width: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color:red;
+}
+.adicionarContato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+li{
+    margin-left: 2px;
+    list-style: none;
+  }
+    ul{
+    box-shadow: 15px -6px teal;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(158, 194, 201);
+    width: 180px;
+}
+.contatos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 5%;
+    
+}
+input[type=text]{
+    height: 20px;
+    border: 1px solid aliceblue;
+    border-radius: 6px;
+    background-color: antiquewhite;
+}
+.labelTel{
+    width: 460px;
+    height: 40px;
+    background-color: rgb(158, 194, 201);
+    border: 1px solid;
+    border-radius: 10px;    
+    box-shadow: 17px 7px  2px teal;
+}
+.inputTel{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+#save{
+    border: 1px solid teal;
+    border-radius: 5px;
+    background-color: rgb(158, 194, 201);
+}
+#novo{
+    border: 1px solid teal;
+    border-radius: 5px;
+    background-color: rgb(158, 194, 201);
+}
+#remover{
+     border: 1px solid teal;
+    border-radius: 5px;
+    background-color: rgb(158, 194, 201);
+}
+#removeContact{
+    border: 1px solid teal;
+    border-radius: 5px;
+    background-color: rgb(158, 194, 201);
+}
